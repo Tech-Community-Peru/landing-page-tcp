@@ -1,6 +1,36 @@
 /*------------NAVBAR------------*/
 .bg-navbar{
-    background-color: #DADADA;
+    background-color: #705CDF;
+}
+
+.fw-bold{
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: #F2F2F2;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+
+.nav-link {
+    line-height: 2; /* Ajusta según sea necesario */
+}
+
+.fw-semibold{
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    color: #F2F2F2;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    --bs-navbar-color: off;
+}
+
+.btn-outline-primary{
+    --bs-btn-border-color: #F2F2F2;
+    --bs-btn-border-color: #F2F2F2;
+    --bs-btn-hover-color:  #705CDF;
+    --bs-btn-hover-border-color: #F2F2F2;
+    --bs-btn-hover-bg: #F2F2F2;
+
 }
 
 /*------------Sección de bienvenida------------*/
