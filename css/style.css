@@ -178,5 +178,5 @@ body.body-login{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 0.2s;
+    transition: opacity 0.2s ease-in-out;
 }
