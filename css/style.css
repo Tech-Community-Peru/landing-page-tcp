@@ -16,7 +16,9 @@
 /*------------Seccion de contacto------------*/
 
 /*------------Seccion de footer------------*/
-
+.footer-container{
+    background-color: #705CDF;
+}
 /*------------Boton de volver al inicio------------*/
 
 /*------------Responsive(Media Queries)------------*/
