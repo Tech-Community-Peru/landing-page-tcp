@@ -5,6 +5,127 @@
 
 /*------------Sección de bienvenida------------*/
 
+.main-body {
+    height: 3940px;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Cambié height a min-height para permitir contenido adicional */
+    background: linear-gradient(135deg, #1D1E5B, #48236D);
+    color: #DADADA;
+    font-family: 'Inter', sans-serif; /* Asegúrate de importar la fuente */
+}
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.icon {
+    position: absolute;
+    width: 8vw; /* Disminuye el tamaño de los íconos */
+    height: auto; /* Mantiene la proporción del SVG */
+}
+
+.top-left {
+    top: -10%; /* Ajusta el porcentaje según sea necesario */
+    left: -10%; /* Ajusta el porcentaje según sea necesario */
+}
+
+.bottom-left {
+    bottom: -10%; /* Ajusta el porcentaje según sea necesario */
+    left: -10%; /* Ajusta el porcentaje según sea necesario */
+}
+
+.top-right {
+    top: -10%; /* Ajusta el porcentaje según sea necesario */
+    right: -10%; /* Ajusta el porcentaje según sea necesario */
+}
+
+.bottom-right {
+    bottom: -10%; /* Ajusta el porcentaje según sea necesario */
+    right: -10%; /* Ajusta el porcentaje según sea necesario */
+}
+
+/* Media queries para pantallas más pequeñas */
+@media (max-width: 600px) {
+    .icon {
+        max-width: 50px; /* Tamaño más pequeño en pantallas pequeñas */
+        width: 15vw; /* Cambia el ancho relativo en pantallas pequeñas */
+    }
+}
+
+.welcome-text {
+    padding: 40px 20px;
+}
+
+.tittle-1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.sub-1 {
+    font-size: 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.back {
+    background: linear-gradient(181deg, #3E337C 3.07%, #705CDF 98.73%);
+    background-repeat: no-repeat;
+}
+
+.tittle-1 {
+    color: #DADADA;
+    text-align: center;
+    font-family: Inter;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.space-welcome {
+    height: 912px;
+    flex-shrink: 0;
+}
+
+
+.sub-1{
+    color: #DADADA;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+
+@media (max-width: 768px) {
+    .tittle-1 {
+        font-size: 2.5rem;
+    }
+    .sub-1 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .tittle-1 {
+        font-size: 3.5rem;
+    }
+    .sub-1 {
+        font-size: 1rem;
+    }
+}
+
 /*------------Secccion de nosotros------------*/
 
 /*------------Seccion de caracteristicas------------*/
