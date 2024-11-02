@@ -1,14 +1,300 @@
 /*------------NAVBAR------------*/
 .bg-navbar{
-    background-color: #DADADA;
+    background-color: #705CDF;
+}
+
+.fw-bold{
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: #F2F2F2;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+
+.nav-link {
+    line-height: 2; /* Ajusta según sea necesario */
+}
+
+.fw-semibold{
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    color: #F2F2F2;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    --bs-navbar-color: off;
+}
+
+.btn-outline-primary{
+    --bs-btn-border-color: #F2F2F2;
+    --bs-btn-border-color: #F2F2F2;
+    --bs-btn-hover-color:  #705CDF;
+    --bs-btn-hover-border-color: #F2F2F2;
+    --bs-btn-hover-bg: #F2F2F2;
+
+}
+
+.nav-padding{
+    padding: 15px !important;
 }
 
 /*------------Sección de bienvenida------------*/
 
+.container{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.height-1 {
+    height: 100vh; /* Opción para ocupar toda la altura de la ventana */
+    display: flex; /* Usar flexbox para centrar el contenido */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto */
+    padding: 10px; /* Espacio interno opcional */
+}
+
+
+.icon {
+    position: absolute;
+    width: 8vw; /* Disminuye el tamaño de los íconos */
+    height: auto; /* Mantiene la proporción del SVG */
+}
+
+.top-left {
+    top: 15%; /* Ajusta el porcentaje según sea necesario */
+    left: 10%; /* Ajusta el porcentaje según sea necesario */
+}
+
+.bottom-left {
+    bottom: 3%; /* Ajusta el porcentaje según sea necesario */
+    left: 10%; /* Ajusta el porcentaje según sea necesario */
+}
+
+.top-right {
+    top: 15%; /* Ajusta el porcentaje según sea necesario */
+    right: 10%; /* Ajusta el porcentaje según sea necesario */
+}
+
+.bottom-right {
+    bottom: 3%; /* Ajusta el porcentaje según sea necesario */
+    right: 10%; /* Ajusta el porcentaje según sea necesario */
+}
+
+
+.welcome-text {
+    padding: 40px 20px;
+}
+
+.sub-1 {
+    font-size: 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.back-1{
+    background: linear-gradient(181deg, #3E337C 3.07%, #705CDF 98.73%);
+    background-repeat: no-repeat;
+}
+
+.tittle-1 {
+    color: #DADADA;
+    text-align: center;
+    font-family: Inter;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.space-welcome {
+    height: 912px;
+    flex-shrink: 0;
+}
+
+
+.sub-1{
+    color: #DADADA;
+text-align: center;
+font-family: Inter;
+font-size: 35px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+
+@media (max-width: 768px) {
+    .tittle-1 {
+        font-size: 2.5rem;
+    }
+    .sub-1 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .tittle-1 {
+        font-size: 3.5rem;
+    }
+    .sub-1 {
+        font-size: 1rem;
+    }
+}
+
+.separation-1 {
+    margin-bottom: 50px; /* Ajusta el valor según sea necesario */
+}
+
+.fw-semibold-1{
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    color: #F2F2F2;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    --bs-navbar-color: off;
+}
+
+/* Ajustes para móviles */
+@media (max-width: 768px) {
+    .tittle-2 {
+        font-size: 2rem; /* Reduce el tamaño del título en móvil */
+    }
+    .sub-2 {
+        font-size: 1rem; /* Reduce el tamaño del subtítulo en móvil */
+        margin-bottom: 10px;
+        padding: 0 10px; /* Añade padding para que el texto no quede pegado al borde */
+    }
+    .button-register {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        margin-top: 15px; /* Ajuste de espaciado con otros elementos */
+    }
+    .icon {
+        width: 40px;
+        height: 40px;
+        margin: 10px; /* Ajusta el margen de los íconos en móvil */
+    }
+}
+
 /*------------Secccion de nosotros------------*/
 
+
+.container-1{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.back-2{
+    background: #DADADA;
+    background-repeat: no-repeat;
+}
+
+.tittle-2 {
+    color: #252525;
+    text-align: center;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.sub-2{
+    color: #252525;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+/*line-height: normal;*/
+}
+
+.center {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    text-align: center; /* Alinea el texto al centro dentro del contenedor */
+}
+
+.separation {
+    margin-bottom: 30px; /* Ajusta el valor según sea necesario */
+}
+
+@media (max-width: 768px) {
+    .tittle-2 {
+        font-size: 2.5rem;
+    }
+    .sub-2 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .tittle-2 {
+        font-size: 3.5rem;
+    }
+    .sub-2 {
+        font-size: 1rem;
+    }
+}
+
+.img-responsive {
+    width: 100%; /* Toma el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 100%; /* No excede el ancho del contenedor */
+    object-fit: cover; /* Ajusta la imagen sin distorsión */
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+    .col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
 /*------------Seccion de caracteristicas------------*/
 
+.tittle-3 {
+    color: #DADADA;
+    text-align: center;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.sub-3{
+    color: #DADADA;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+/*line-height: normal;*/
+}
+
+.linear::before {
+    content: "";
+    position: absolute;
+    top: 50%; /* Centra verticalmente */
+    left: 0; /* Comienza desde el lado izquierdo */
+    width: 100%; /* Asegúrate de que ocupe el 100% del contenedor */
+    height: 40%; /* Ajusta la altura de la línea */
+    background: linear-gradient(90deg, transparent, rgba(112, 93, 213, 0.7), transparent); /* Gradiente que se difumina */
+    transform: translateY(-50%); /* Ajusta para centrar correctamente la línea */
+}
+
+.card{
+    --bs-card-bg:#DADADA;
+}
 /*------------Seccion de testimonios------------*/
 
 /*------------Seccion de equipos------------*/
