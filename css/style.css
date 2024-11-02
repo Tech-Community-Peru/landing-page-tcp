@@ -10,8 +10,61 @@
 /*------------Seccion de caracteristicas------------*/
 
 /*------------Seccion de testimonios------------*/
+#testimonios .testimonial-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #testimonios .card-title {
+    font-size: 1.25rem;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  #testimonios .card-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Estilo para ajustar el ícono de testimonio */
+  #testimonios .testimonial-icon {
+    width: 100px; /* Ajusta el tamaño según el diseño */
+    height: 100px;
+    object-fit: cover;
+    margin: 0 auto 10px; /* Centra la imagen */
+  }
 
 /*------------Seccion de equipos------------*/
+
+#equipo .team-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#equipo .card-title {
+    font-size: 1.25rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+#equipo .card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+#equipo .team-photo {
+    width: 200px; /* Tamaño reducido */
+    height: 200px; /* Tamaño reducido */
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
 
 /*------------Seccion de contacto------------*/
 
