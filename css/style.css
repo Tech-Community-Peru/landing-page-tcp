@@ -539,3 +539,16 @@ body.body-login{
     height: 20%;
     z-index: 9999;
 }
+
+.conten-page-login{
+    margin-top: 88px; /* Para que no se superponga el header */
+}
+
+/* REGISTER */
+.conten-page-footer {
+    margin-top: 110px; Para que no se superponga el header
+    /* margin-left: 250px; */
+    /* margin-right: 250px; */
+    /* z-index: 9999; */
+}
+
