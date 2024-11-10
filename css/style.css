@@ -521,7 +521,7 @@ body.body-login{
 
 /*------------Pantalla de carga------------*/
 .spinner-wrapper{
-    background-color: #f3f3f3;
+    background-color: #f3f3f3e6;
     position: fixed;
     top: 0;
     left: 0;
@@ -531,5 +531,11 @@ body.body-login{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: opacity 0.2s ease-in-out;
+   transition: opacity 0.2s ease-in-out;
+  }
+
+.spinner-design{
+    width: 20%;
+    height: 20%;
+    z-index: 9999;
 }
