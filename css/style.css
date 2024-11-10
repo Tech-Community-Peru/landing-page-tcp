@@ -37,6 +37,15 @@
     padding: 15px !important;
 }
 
+@media (max-width: 420px){
+    .fw-bold{
+        font-size: 20px;
+    }
+}
+
+section {
+    scroll-margin-top: 80px; /* Ajusta según la altura de tu navbar */
+  }
 /*------------Sección de bienvenida------------*/
 
 .container{
@@ -81,11 +90,6 @@
 .bottom-right {
     bottom: 3%; /* Ajusta el porcentaje según sea necesario */
     right: 10%; /* Ajusta el porcentaje según sea necesario */
-}
-
-
-.welcome-text {
-    padding: 40px 20px;
 }
 
 .sub-1 {
@@ -144,7 +148,7 @@ line-height: normal;
 }
 
 .separation-1 {
-    margin-bottom: 50px; /* Ajusta el valor según sea necesario */
+    margin-bottom: 40px; /* Ajusta el valor según sea necesario */
 }
 
 .fw-semibold-1{
@@ -189,6 +193,12 @@ line-height: normal;
     text-align: center;
 }
 
+@media (max-width: 320px) {
+    .container-1{
+        padding: 5px;
+    }
+}
+
 .back-2{
     background: #DADADA;
     background-repeat: no-repeat;
@@ -231,15 +241,6 @@ font-weight: 300;
     }
     .sub-2 {
         font-size: 0.9rem;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .tittle-2 {
-        font-size: 3.5rem;
-    }
-    .sub-2 {
-        font-size: 1rem;
     }
 }
 
@@ -295,15 +296,24 @@ font-weight: 300;
 .card{
     --bs-card-bg:#DADADA;
 }
+
+/* Estilo inicial para las columnas */
+.col {
+    width: 22rem;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    .col {
+        width: 100%; /* Ajusta la columna al 100% del contenedor */
+        max-width: 18rem; /* Mantiene el ancho máximo en 22rem */
+        margin-left: auto; /* Centra la columna */
+        margin-right: auto; /* Centra la columna */
+    }
+}
+
+
 /*------------Seccion de testimonios------------*/
-#testimonios .testimonial-card {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
   #testimonios .card-title {
     font-size: 1.25rem;
     color: #333;
@@ -313,6 +323,10 @@ font-weight: 300;
   #testimonios .card-text {
     font-size: 1rem;
     color: #666;
+  }
+
+  .spaceentercards{
+    --bs-gutter-x: 2rem;
   }
   
   /* Estilo para ajustar el ícono de testimonio */
