@@ -168,7 +168,7 @@ body.body-login{
 
 /*------------Pantalla de carga------------*/
 .spinner-wrapper{
-    background-color: #f3f3f3;
+    background-color: #f3f3f3e6;
     position: fixed;
     top: 0;
     left: 0;
@@ -179,4 +179,10 @@ body.body-login{
     justify-content: center;
     align-items: center;
     transition: all 0.2s;
+}
+
+.spinner-design{
+    width: 20%;
+    height: 20%;
+    z-index: 9999;
 }
