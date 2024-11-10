@@ -416,8 +416,8 @@ body.body-login{
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: linear-gradient(90deg, rgba(2, 0, 1, 0.916) 0%, #06035e 35%, #2b05d3 100%);
-
+    background-image: radial-gradient(#432ea3 0%, #543aea 100%);
+    /* background-image: radial-gradient(120deg, rgba(2, 0, 1, 0.916) 0%, #543aea 100%); */
 }
 
 .nullShadow:focus {
